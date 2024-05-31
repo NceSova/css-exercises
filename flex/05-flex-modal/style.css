@@ -79,20 +79,22 @@ button.cancel {
 }
 
 .info {
-  border: 2px solid blue;
   display: flex;
-  gap: 5px;
+  gap: 12px;
   flex-direction: column;
   justify-content: stretch;
 }
 
 .header {
-  border: 2px solid blue;
   margin-right: auto;
 }
 
 .top {
-  border: 2px solid red;
   display: flex;
   align-items: center;
+}
+
+.header {
+  font-weight:900;
+  font-size: 20px;
 }
